@@ -7,6 +7,8 @@ df = pd.read_csv("countries_population.csv", quotechar="'", sep=" ", names=names
 
 df.population = df.population.str.replace(",","").astype(int)
 
+#df = pd.read_csv("countries_population.csv", quotechar="'", sep=" ", names=names, index_col=0, thousands=",")
+
 print(df.sort_values(by="population", ascending=False).head(5))
 
 
