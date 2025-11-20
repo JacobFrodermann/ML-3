@@ -3,7 +3,7 @@ import pandas as pd
 
 
 idx = pd.date_range(start="12/24/2025", end="1/6/2026", freq="B")
-# df = pd.bdate_range(start="12/24/2025", end="1/6/2026")
+# idx = pd.bdate_range(start="12/24/2025", end="1/6/2026")
 
 print("========= a) ==========")
 
